@@ -1355,7 +1355,7 @@ public:
     gCurrentCandidateController.keyLabelFont = klFontName ? [NSFont fontWithName:klFontName size:keyLabelSize] : [NSFont systemFontOfSize:keyLabelSize];
     gCurrentCandidateController.candidateFont = ctFontName ? [NSFont fontWithName:ctFontName size:textSize] : [NSFont systemFontOfSize:textSize];
 
-    NSMutableArray *keyLabels = [NSMutableArray arrayWithObjects:@"1", @"2", @"3", @"4", @"5", @"6", @"7", @"8", @"9", nil];
+    NSMutableArray *keyLabels = [NSMutableArray arrayWithObjects:@"a", @"s", @"d", @"f", @"g", @"h", @"j", @"k", @"l", nil];
 
     if ([ckeys length] > 1) {
         [keyLabels removeAllObjects];

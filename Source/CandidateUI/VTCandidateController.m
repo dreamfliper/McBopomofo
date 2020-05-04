@@ -47,7 +47,7 @@
     self = [super initWithWindow:window];
     if (self) {
         // populate the default values        
-        _keyLabels = [[NSArray arrayWithObjects:@"1", @"2", @"3", @"4", @"5", @"6", @"7", @"8", @"9", nil] retain];
+        _keyLabels = [[NSArray arrayWithObjects:@"a", @"s", @"d", @"f", @"g", @"h", @"j", @"k", @"l", nil] retain];
         _keyLabelFont = [[NSFont systemFontOfSize:14.0] retain];
         _candidateFont = [[NSFont systemFontOfSize:18.0] retain];
     }
